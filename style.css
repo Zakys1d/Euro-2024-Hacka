@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+    width: 100%;
+    height: 15px;
+    background-color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color:#143cdb;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+} 
+
+.start {
+    height: 100%;
+    padding-left: 15px;
+    
+}
+
+.start img {
+    height: 100%;
+}
+
+.space {
+    width: 85%;
+}
+
+.verify {
+    height: 100%;
+    display: flex;
+    text-align: right;
+}
+
+.verify img {
+    height: 100%;
+    margin-left: 20px;
+}
+
+main {
+    width: 100%;
+}
+
+.navigation {
+    height: 40px;
+    background-color:#143cdb;
+    padding: 15px;
+    display: flex;
+}
+
+.navigation img {
+    height: 100%;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.menuitem {
+    width: 9%;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.menuitem a:hover {
+    color:gold;
+}
+
+.calendar {
+    background-color:#143cdb;
+    padding: 15px;
+}
+
+.calendar .group {
+    background-color: #002c92;
+    border: solid 1px #002c92;
+}
+
+.borderline {
+    width: 100%;
+    height: 1px;
+    background-color:grey;
+}
+
+.stories {
+    height: 200px;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.topstory {
+    width: 8%;
+    margin: 5px;
+}
+
+.topimage {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+.topimage img {
+    width: 100%;      
+}
+
+.toplink {
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.events {
+    background-color:#143cdb;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainnews {
+    
+    margin-right: 15px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.mainnews-img {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.mainnews img {
+    width: 100%;
+    transition: 1s;
+    display: block;
+    
+}
+
+.mainnews img:hover {
+    transform: scale(1.2);
+}
+
+.mainevents {
+    width: 30%;
+    background-color: #002c92;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.mainevents h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.topevents {
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+    text-align: left;
+}
+
+.topevents-img {
+    width: 40%;
+    margin-right: 15px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.topevents-img img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.topevents-img img:hover {
+    transform: scale(1.2);
+}
+
+.topevents-link {
+    display: block;
+    width: 60%;
+    padding-left: 5px;
+    padding-top: 5%;
+}
+.moments {
+    background-image: url(https://img.uefa.com/imgml/uefacom/euro2024/rebrand/backgroundLight02L.png);
+    padding-top: 20px;
+}
+
+.frames {
+    display: flex;
+    justify-content: center;
+}
+
+.moments iframe {
+    width: 15%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chaptername {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: solid;
+    font-weight: 700;
+}
+
+.groups {
+    background-image: url(https://img.uefa.com/imgml/uefacom/euro2024/rebrand/backgroundLight01M.png);
+    padding: 15px;    
+}
+
+.tables {
+    display: flex;
+}
+
+.group {
+    width: 16%;
+    margin: 7 px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.group a {
+    color:black;
+}
+
+.groupname {
+    display: block;
+    margin: 15px;
+}
+
+.grouptable {
+    margin-bottom: 15px;
+}
+
+.country {
+    display: flex;
+    width: 100%;
+    text-align: justify;
+    margin-left: 25px;
+    
+}
+
+.countryname {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.choice {
+    padding: 15px;
+    background-color: white;
+    
+}
+
+.picks {
+    display: flex;
+}
+.pick {
+    border: 2px solid lightgray;
+    width: 20%;
+    border-radius: 5px;
+    margin: 15px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.pick a {
+    color: black;
+    padding-left: 10px;
+}
+
+.pick p {
+    color: grey;
+    padding-left: 10px;
+}
+
+.pick img {
+    width: 100%;
+    display: block;
+    transition: 1s;
+    
+}
+
+.pick img:hover {
+    transform: scale(1.2);
+}
+
+.see-more-videos {
+    border: 2px solid #143cdb;
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.see-more-videos a {
+    text-align: center;
+    width: 100%;
+    color: #143cdb;
+}
+
+.see-more-videos:hover {
+    border: 2px solid #143cdb;
+    transition: 0.3s;
+    background-color: #143cdb;
+}
+
+.see-more-videos a:hover {
+    color: white;
+}
+
+.journey {
+    background-image: url(https://img.uefa.com/imgml/uefacom/euro2024/rebrand/backgroundLight02L.png);
+    padding: 15px;
+}
+
+.cityraw {
+    display: flex;
+}
+
+.city {
+    width: 20%;
+    text-align: center;
+    background-color: #00ba5d;
+    margin: 10px;
+}
+
+.city:hover {
+    border: 5px solid #00ba5d;
+    margin: 5px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.city img {
+    width: 100%;
+}
+
+.cityname {
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+}
+
+
+
+.sponsors {
+    height: 110px;
+    background-color:lightgray;
+    padding: 15px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.sponsorsrow {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-align: center;
+}
+
+.sponsorlogo {
+    display: block;
+    width: 7%;
+    margin: 4px;
+}
+
+footer {
+    width: 100%;
+    height: 950px;
+    background: url(https://img.uefa.com/imgml/uefacom/euro2024/rebrand/footer-desktop.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    background-color:#143cdb;
+}
+
+.footer-links {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    margin-right: 30px;
+}
+
+.link-list {
+    width: 20%;
+}
+
+.cookie-link {
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.cookie-link a {
+    display: block;
+    margin-right: 30px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
